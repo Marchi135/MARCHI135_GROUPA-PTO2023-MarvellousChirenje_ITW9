@@ -1,0 +1,95 @@
+
+#div h1{
+    font-size: 5vw;
+    color: #fff;
+}
+
+#header_image {
+    position: relative;
+    left:30px;
+    top: 20px;
+    border-radius: 50%;
+    border-color: darkolivegreen;
+    border-style: solid;
+}
+.header {
+    background-image: url("/Resume9/Images/clark-van-der-beken-BSjlgIx4gBQ-unsplash.jpg");
+    text-align: center;
+     color: #D6D3DB;
+    
+}
+h1{
+  font-size: 3vw;
+  color: #D6D3DB;
+  text-align: center;
+  }
+h3 {
+  color:#37675C
+}
+h4 {
+  color: #6F919C
+}
+body {
+    background-color:#D6D3DB;
+    color: #4A4453;
+    margin: 1rem 3rem;
+    border: #BF5846;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1rem;
+}
+a:hover {
+  background-color: rgb(75, 75, 218);
+  color: white;
+}
+#navbar-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#nav-bar { 
+  position:sticky;
+  top: 20px;
+  }
+footer {
+    background-color: #2F4858;
+    color: antiquewhite;
+    text-align: end;
+  }
+/*----------Mobile---------------------*/
+
+@media screen and (max-width: 425px) {
+    h1{
+     font-size: 1.5em;
+    }
+    h2{
+   font-size: 1.35em
+    }
+    h3{
+   font-size: 1em;
+    }
+    body {
+      margin: 1rem 1.2rem;
+      padding: 3% ;
+    }
+    }
+    /*--------------------Tablet------------*/
+    @media screen and (max-width: 768px){
+    h1 {
+      font-size: 1.8em;
+     }
+     h2{
+    font-size: 1.5em
+     }
+     h3{
+    font-size: 1.25em;
+     }
+     
+     #navbar-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+     }
+     body {
+      margin: 1rem 1.2rem;
+      padding: 3% ;
+    }
+  }
